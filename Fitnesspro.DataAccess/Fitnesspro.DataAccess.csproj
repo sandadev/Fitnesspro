@@ -40,6 +40,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Response\ValidationResponse.cs" />
+    <Compile Include="ServiceGroup\ServiceGroupViewModel.cs" />
+    <Compile Include="Services\ServiceViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fitnesspro.Repository\Fitnesspro.Repository.csproj">
+      <Project>{0d4c8432-d038-40ed-9804-a6b916df2f76}</Project>
+      <Name>Fitnesspro.Repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

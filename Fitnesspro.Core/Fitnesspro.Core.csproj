@@ -39,7 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogiv\ServiceGroup\ServiceGroupOperations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fitnesspro.Contract\Fitnesspro.Contract.csproj">
+      <Project>{e547aaa0-f171-4f94-b010-8560bd716c33}</Project>
+      <Name>Fitnesspro.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fitnesspro.DataAccess\Fitnesspro.DataAccess.csproj">
+      <Project>{1c798b65-e6a1-4d13-a3c5-14a8c87980e4}</Project>
+      <Name>Fitnesspro.DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

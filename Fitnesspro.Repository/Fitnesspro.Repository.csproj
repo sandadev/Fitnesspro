@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D4C8432-D038-40ED-9804-A6B916DF2F76}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fitnesspro.Repository</RootNamespace>
+    <AssemblyName>Fitnesspro.Repository</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminPackageName.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClosedDate.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Duration.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityPayment.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityType.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraTime.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FitnessList.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Fitnesspro.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fitnesspro.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Fitnesspro.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Fitnesspro.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fitnesspro.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineBookingService.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PackageDetail.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repeat.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Service.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceAvailable.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceGroup.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServicePriceOption.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceSetting.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ShiftTiming.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Staff.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StaffWorkingHour.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tax.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserPermission.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VoucherExpiry.cs">
+      <DependentUpon>Fitnesspro.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Fitnesspro.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Fitnesspro.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="Fitnesspro.edmx.diagram">
+      <DependentUpon>Fitnesspro.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fitnesspro.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Fitnesspro.edmx</DependentUpon>
+      <LastGenOutput>Fitnesspro.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Fitnesspro.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Fitnesspro.edmx</DependentUpon>
+      <LastGenOutput>Fitnesspro.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

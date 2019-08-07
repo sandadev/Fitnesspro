@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitnesspro.Service", "Fitne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitnesspro.Service.Tests", "Fitnesspro.Service.Tests\Fitnesspro.Service.Tests.csproj", "{B58A91EF-55E6-4E28-9EA8-C34BD45E4121}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{CB7D6214-3204-41CB-8EC3-B5F2CB910A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitnesspro.Repository", "Fitnesspro.Repository\Fitnesspro.Repository.csproj", "{0D4C8432-D038-40ED-9804-A6B916DF2F76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,10 @@ Global
 		{B58A91EF-55E6-4E28-9EA8-C34BD45E4121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B58A91EF-55E6-4E28-9EA8-C34BD45E4121}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B58A91EF-55E6-4E28-9EA8-C34BD45E4121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4C8432-D038-40ED-9804-A6B916DF2F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4C8432-D038-40ED-9804-A6B916DF2F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4C8432-D038-40ED-9804-A6B916DF2F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4C8432-D038-40ED-9804-A6B916DF2F76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +81,6 @@ Global
 		{21AEFBA4-7D6C-4FF6-A33E-87908B618BF3} = {AEFA8FA8-5954-4537-A92C-230634E458DE}
 		{868AFB8F-23B3-4255-BAD6-2B783468E9F6} = {50514882-3EBF-4C3A-88F1-617D47F97372}
 		{B58A91EF-55E6-4E28-9EA8-C34BD45E4121} = {50514882-3EBF-4C3A-88F1-617D47F97372}
+		{0D4C8432-D038-40ED-9804-A6B916DF2F76} = {CB7D6214-3204-41CB-8EC3-B5F2CB910A39}
 	EndGlobalSection
 EndGlobal

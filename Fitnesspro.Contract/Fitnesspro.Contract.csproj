@@ -40,6 +40,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceGroup\IServiceGroup.cs" />
+    <Compile Include="Service\IService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fitnesspro.DataAccess\Fitnesspro.DataAccess.csproj">
+      <Project>{1c798b65-e6a1-4d13-a3c5-14a8c87980e4}</Project>
+      <Name>Fitnesspro.DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
