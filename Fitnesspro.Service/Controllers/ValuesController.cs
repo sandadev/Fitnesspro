@@ -10,7 +10,7 @@ namespace Fitnesspro.Service.Controllers
     public class ValuesController : ApiController
     {
         // GET api/values
-        public IEnumerable<string> Get()
+        public IEnumerable<string> GetValues()
         {
             return new string[] { "value1", "value2" };
         }
@@ -24,6 +24,7 @@ namespace Fitnesspro.Service.Controllers
         // POST api/values
         public void Post([FromBody]string value)
         {
+
         }
 
         // PUT api/values/5
