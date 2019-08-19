@@ -84,6 +84,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Fitnesspro.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Interface\IServiceGroupRepository.cs" />
     <Compile Include="OnlineBookingService.cs">
       <DependentUpon>Fitnesspro.tt</DependentUpon>
     </Compile>
@@ -94,6 +95,7 @@
     <Compile Include="Repeat.cs">
       <DependentUpon>Fitnesspro.tt</DependentUpon>
     </Compile>
+    <Compile Include="Response\ValidationResponse.cs" />
     <Compile Include="Service.cs">
       <DependentUpon>Fitnesspro.tt</DependentUpon>
     </Compile>
@@ -103,6 +105,7 @@
     <Compile Include="ServiceGroup.cs">
       <DependentUpon>Fitnesspro.tt</DependentUpon>
     </Compile>
+    <Compile Include="Servicegroup\ServiceGroupRepository.cs" />
     <Compile Include="ServicePriceOption.cs">
       <DependentUpon>Fitnesspro.tt</DependentUpon>
     </Compile>

@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessLogiv\ServiceGroup\ServiceGroupOperations.cs" />
+    <Compile Include="BusinessLogic\ServiceGroup\ServiceGroupOperations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -50,6 +50,10 @@
     <ProjectReference Include="..\Fitnesspro.DataAccess\Fitnesspro.DataAccess.csproj">
       <Project>{1c798b65-e6a1-4d13-a3c5-14a8c87980e4}</Project>
       <Name>Fitnesspro.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fitnesspro.Repository\Fitnesspro.Repository.csproj">
+      <Project>{0d4c8432-d038-40ed-9804-a6b916df2f76}</Project>
+      <Name>Fitnesspro.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
