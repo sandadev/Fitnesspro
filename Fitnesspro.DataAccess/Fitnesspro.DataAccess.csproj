@@ -41,8 +41,8 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Response\ValidationResponse.cs" />
-    <Compile Include="ServiceGroup\ServiceGroupViewModel.cs" />
-    <Compile Include="Services\ServiceViewModel.cs" />
+    <Compile Include="Services\Service.cs" />
+    <Compile Include="Services\ServiceGroupViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fitnesspro.Repository\Fitnesspro.Repository.csproj">
