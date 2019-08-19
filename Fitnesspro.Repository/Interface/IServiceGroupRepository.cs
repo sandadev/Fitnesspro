@@ -11,7 +11,7 @@ namespace Fitnesspro.Repository.Interface
 {
    public interface IServiceGroupRepository
     {
-        List<servicegropv> ServiceGroupList();
+        List<ServiceGroup> ServiceGroupList();
         ValidationResponse CreateServiceGroup(ServiceGroup servicegroup);
     }
 }

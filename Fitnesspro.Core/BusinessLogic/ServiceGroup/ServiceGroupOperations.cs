@@ -20,10 +20,10 @@ namespace Fitnesspro.Core.ServiceGBusinessLogivroup
             _servicegrouprepo = servicegroup;
         }
 
-        public ValidationResponse CreateServiceGroup(ServiceGroupViewModel servicegroup)
-        {
-            throw new NotImplementedException();
-        }
+        //public ValidationResponse CreateServiceGroup(ServiceGroupViewModel servicegroup)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         /// <summary>
         /// Return all the Service group
@@ -33,7 +33,10 @@ namespace Fitnesspro.Core.ServiceGBusinessLogivroup
 
       public List<ServiceGroupViewModel> ServiceGroupList()
         {
-            return _servicegrouprepo.ServiceGroupList();
+            //return _servicegrouprepo.ServiceGroupList();
+            throw new NotImplementedException();
         }
+
+      
     }
 }
