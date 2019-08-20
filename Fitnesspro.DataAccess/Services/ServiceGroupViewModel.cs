@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fitnesspro.DataAccess.Services
 {
-   public class ServiceGroupViewModel
+    public class ServiceGroupViewModel
     {
         public int ServiceGroupId { get; set; }
         public string GroupName { get; set; }
@@ -14,4 +14,5 @@ namespace Fitnesspro.DataAccess.Services
         public string Description { get; set; }
         public int EntityId { get; set; }
     }
+
 }
