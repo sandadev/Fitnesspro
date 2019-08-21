@@ -98,8 +98,6 @@
     <Compile Include="Repeat.cs">
       <DependentUpon>Fitnesspro.tt</DependentUpon>
     </Compile>
-    <Compile Include="Response\MappingProfile.cs" />
-    <Compile Include="Response\ValidationResponse.cs" />
     <Compile Include="Service.cs">
       <DependentUpon>Fitnesspro.tt</DependentUpon>
     </Compile>
@@ -131,6 +129,7 @@
     <Compile Include="UserPermission.cs">
       <DependentUpon>Fitnesspro.tt</DependentUpon>
     </Compile>
+    <Compile Include="Utility\Mapper.cs" />
     <Compile Include="VoucherExpiry.cs">
       <DependentUpon>Fitnesspro.tt</DependentUpon>
     </Compile>

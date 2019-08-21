@@ -3,9 +3,10 @@
     Layout = "~/Views/Shared/_FitnessproLayout.cshtml";
 }
 
-<div class="right_col" role="main">
-    <div class="">
-        @*<div class="page-title">
+    <div class="right_col" role="main">
+        servicepopup
+        <div class="">
+            @*<div class="page-title">
             <div class="title_left">
                 <h3>Services</h3>
             </div>
@@ -19,25 +20,84 @@
                 </div>
             </div>
         </div>*@
-        <div class="clearfix"></div>
-        @*Export bar*@
-        <div style="display: flex; flex-direction: row;" class="_1zm-ut">
-        <div style="display: flex; flex-direction: row;" class="JHUa_c">
-        <div style="display: flex; flex-direction: column;" class="_3NVDUN _2ODZzb _1oBoVW _8K6IKr _2YDDuc _2d0dKp _2nu1E8" value="false" data-qa="list-extended-button">
-        <span class="_3Q2N2k _30vxLD _3v1cJZ skx_qq">
-            <svg viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg"><g><path d="M1.5 1.5v15h17v-15h-17zM1 0h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1z"></path><path d="M4 5h12H4zm0-1h12a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zM4 9h12H4zm0-1h12a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zM4 13h12H4zm0-1h12a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path></g></svg></span>
+            <div class="clearfix"></div>
+            @*Export bar*@
+            <div style="display: flex; flex-direction: row;" class="_1zm-ut">
+                <div style="display: flex; flex-direction: row;" class="JHUa_c">
+                    @*open button*@
+                    <div style="display: flex; flex-direction: column;" class="_3NVDUN _2ODZzb _1oBoVW _8K6IKr _2YDDuc _2d0dKp _2nu1E8 btnShowDetails" value="false" data-qa="list-extended-button">
+                        <span class="_3Q2N2k _30vxLD _3v1cJZ skx_qq">
+                            <svg viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg"><g><path d="M1.5 1.5v15h17v-15h-17zM1 0h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1z"></path><path d="M4 5h12H4zm0-1h12a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zM4 9h12H4zm0-1h12a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zM4 13h12H4zm0-1h12a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path></g></svg>
+                        </span>
+                    </div>
+                    @*Close button*@
+                    <div style="display: flex; flex-direction: column;" class="_3NVDUN _2ODZzb _1oBoVW _8K6IKr _2YDDuc _2nu1E8 btnHideDetails" value="true" data-qa="list-collapsed-button">
+                        <span class="_3Q2N2k _30vxLD _3v1cJZ skx_qq">
+                            <svg viewBox="0 0 20 17" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path d="M1.5 1.5v2h17v-2h-17zM1 0h18a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1zM1.5 7.5v2h17v-2h-17zM1 6h18a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zM1.5 13.5v2h17v-2h-17zM1 12h18a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1z"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                </div><div style="flex-shrink: 1; flex-grow: 1;"></div><button class="_3ySuQR tlPbe1 _2nu1E8 _1jiWG4 _2P5TQK _1qADt0" data-qa="export-button"><span class="_3Q2N2k _30vxLD _3s37z7 _3coDyr LnBSH4"><svg xmlns="http://www.w3.org/2000/svg"><g><path d="M15.072 9.62c.506 0 .911.405.911.912v4.962a.908.908 0 0 1-.911.911H.962c-.506 0-.945-.405-.945-.911v-4.962c0-.507.439-.912.945-.912s.911.405.911.912v4.017H14.16v-4.017c0-.507.405-.912.912-.912z"></path><path d="M7.376 11.68L3.662 7.965a.878.878 0 0 1 0-1.282.878.878 0 0 1 1.283 0l2.16 2.126V.911c0-.506.406-.911.912-.911s.911.405.911.911v7.9l2.127-2.127a.917.917 0 0 1 1.316 0 .878.878 0 0 1 0 1.282L8.658 11.68a.922.922 0 0 1-.641.27.922.922 0 0 1-.641-.27z"></path></g></svg></span><div class="_10jmov"><div>Export</div></div></button><button class="_3ySuQR _2grP2T tlPbe1 _2nu1E8 _1O2-GF _2P5TQK _1qADt0" data-qa="floating-menu-button" id="btnAddNew"><div class="_10jmov"><div>Add New</div></div></button>
             </div>
-            <div style="display: flex; flex-direction: column;" class="_3NVDUN _2ODZzb _1oBoVW _8K6IKr _2YDDuc _2nu1E8" value="true" data-qa="list-collapsed-button"><span class="_3Q2N2k _30vxLD _3v1cJZ skx_qq"><svg viewBox="0 0 20 17" xmlns="http://www.w3.org/2000/svg"><g><path d="M1.5 1.5v2h17v-2h-17zM1 0h18a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1zM1.5 7.5v2h17v-2h-17zM1 6h18a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zM1.5 13.5v2h17v-2h-17zM1 12h18a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1z"></path></g></svg></span></div></div><div style="flex-shrink: 1; flex-grow: 1;"></div><button class="_3ySuQR tlPbe1 _2nu1E8 _1jiWG4 _2P5TQK _1qADt0" data-qa="export-button"><span class="_3Q2N2k _30vxLD _3s37z7 _3coDyr LnBSH4"><svg xmlns="http://www.w3.org/2000/svg"><g><path d="M15.072 9.62c.506 0 .911.405.911.912v4.962a.908.908 0 0 1-.911.911H.962c-.506 0-.945-.405-.945-.911v-4.962c0-.507.439-.912.945-.912s.911.405.911.912v4.017H14.16v-4.017c0-.507.405-.912.912-.912z"></path><path d="M7.376 11.68L3.662 7.965a.878.878 0 0 1 0-1.282.878.878 0 0 1 1.283 0l2.16 2.126V.911c0-.506.406-.911.912-.911s.911.405.911.911v7.9l2.127-2.127a.917.917 0 0 1 1.316 0 .878.878 0 0 1 0 1.282L8.658 11.68a.922.922 0 0 1-.641.27.922.922 0 0 1-.641-.27z"></path></g></svg></span><div class="_10jmov"><div>Export</div></div></button><button class="_3ySuQR _2grP2T tlPbe1 _2nu1E8 _1O2-GF _2P5TQK _1qADt0" data-qa="floating-menu-button" id="btnAddNew"><div class="_10jmov"><div>Add New</div></div></button>
-        </div>
-        @*Pop up *@
-        <div id="servicepopup" style="left: 1170px; top: 120px; opacity: 1; transform: translateY(0px); transition: opacity 250ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 250ms cubic-bezier(0, 0, 0.2, 1) 0ms; width: 155.3px; height: 86px;" class="_1Y9UDj _1ns_c0" data-qa="drop-down-menu-popup">
-        <button class="_2E0-X_ _1Cp5sB _2nu1E8 _1jiWG4 _2P5TQK" data-qa="new-service">New Service</button>
-        <button class="_2E0-X_ _1Cp5sB _2nu1E8 _1jiWG4 _2P5TQK" data-qa="new-category">New Service Group</button>
-        </div>
-         @*Group*@
-            <div style="display: flex; flex-direction: row;" class="_2gUmid" data-qa="offer-catalog-category-bar-611819"><div style="display: flex; flex-direction: row;" class="iNrZD8"><span class="_3Q2N2k _30vxLD _8-1cM6 _3dgNZY _2qrgIO"><svg viewBox="0 0 16 10" xmlns="http://www.w3.org/2000/svg"><path d="M1 0h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 4h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 4h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2z"></path></svg></span><div class="_9t1fKU _1P8_io _1w_rZC" data-qa="service-group-title">hamed</div></div><button style="flex-shrink: 0;" class="_3ySuQR _2ymbP7 _30O8Wv _2nu1E8 _1jiWG4 _2P5TQK _1qADt0" data-qa="service-group-options"><div class="_10jmov"><div><span class="_3Q2N2k _30vxLD _3v1cJZ XuZows"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 6"><circle cx="3" cy="3" r="3"></circle><circle cx="11" cy="3" r="3"></circle><circle cx="19" cy="3" r="3"></circle></svg></span></div></div></button></div>
-            <div class="_1wZEY8 _2nu1E8" data-qa="menu-item-1415783"><div style="background-color: rgb(165, 223, 248);" class="_30DVxr"></div><div class="_1icYDw" data-qa="service-bar"><div style="display: flex; flex-direction: row; flex-grow: 1; align-items: center;"><span class="_3Q2N2k _30vxLD _8-1cM6 _3dgNZY _3-MSnf"><svg viewBox="0 0 16 10" xmlns="http://www.w3.org/2000/svg"><path d="M1 0h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 4h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 4h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2z"></path></svg></span><div style="flex-grow: 1;" class="_2TtLxf" data-qa="item-variant-bar"><div style="display: flex; flex-direction: row; flex-grow: 1;" class="_2Naf5B"><div style="display: flex; flex-direction: column; flex-grow: 1;"><div class="_9t1fKU _3Hyp97 c_1hn3" data-qa="offer-catalog-menu-item-name">hamed gym</div></div><div class="_9t1fKU _3Hyp97 _2ojNy7" data-qa="service-duration">1h</div></div><div style="display: flex; flex-direction: row-reverse; flex-shrink: 0; flex-grow: 0; text-align: right;"><div class="_9t1fKU _3Hyp97 lxxmG_" data-qa="service-retail-price"><span>₹100</span></div><div class="_9t1fKU _3Hyp97 _1W3ZgR" data-qa="non-discounted-price"></div></div></div></div></div></div>
-         <div class="clearfix"></div>
+            @*Pop up *@
+            <div id="servicepopup" style="left: 1170px; top: 120px; opacity: 1; transform: translateY(0px); transition: opacity 250ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 250ms cubic-bezier(0, 0, 0.2, 1) 0ms; width: 155.3px; height: 86px;" class="_1Y9UDj _1ns_c0" data-qa="drop-down-menu-popup">
+                <button class="_2E0-X_ _1Cp5sB _2nu1E8 _1jiWG4 _2P5TQK" data-qa="new-service">New Service</button>
+                <button class="_2E0-X_ _1Cp5sB _2nu1E8 _1jiWG4 _2P5TQK" data-qa="new-category">New Service Group</button>
+            </div>
+            @*Group*@
+            <div style="display: flex; flex-direction: row;" class="_2gUmid" data-qa="offer-catalog-category-bar-611819">
+                <div style="display: flex; flex-direction: row;" class="iNrZD8">
+                    <span class="_3Q2N2k _30vxLD _8-1cM6 _3dgNZY _2qrgIO">
+                        <svg viewBox="0 0 16 10" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 0h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 4h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 4h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2z"></path>
+                        </svg>
+                    </span>
+                    <div class="_9t1fKU _1P8_io _1w_rZC" data-qa="service-group-title">hamed</div>
+                </div>
+                <button style="flex-shrink: 0;" class="_3ySuQR _2ymbP7 _30O8Wv _2nu1E8 _1jiWG4 _2P5TQK _1qADt0" data-qa="service-group-options">
+                    <div class="_10jmov">
+                        <div>
+                            <span class="_3Q2N2k _30vxLD _3v1cJZ XuZows">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 6">
+                                    <circle cx="3" cy="3" r="3"></circle>
+                                    <circle cx="11" cy="3" r="3"></circle>
+                                    <circle cx="19" cy="3" r="3"></circle>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            @*Servicegroup list*@
+            <div class="_1wZEY8 _2nu1E8" data-qa="menu-item-1415783">
+                <div style="background-color: rgb(165, 223, 248);" class="_30DVxr"></div>
+                @*Services list*@
+            <div class="_1icYDw" data-qa="service-bar">
+                <div style="display: flex; flex-direction: row; flex-grow: 1; align-items: center;">
+                    <span class="_3Q2N2k _30vxLD _8-1cM6 _3dgNZY _3-MSnf">
+                        <svg viewBox="0 0 16 10" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 0h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 4h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm0 4h14a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2z"></path>
+                        </svg>
+                    </span>
+                    <div style="flex-grow: 1;" class="_2TtLxf" data-qa="item-variant-bar">
+                        <div style="display: flex; flex-direction: row; flex-grow: 1;" class="_2Naf5B">
+                            <div style="display: flex; flex-direction: column; flex-grow: 1;">
+                                <div class="_9t1fKU _3Hyp97 c_1hn3" data-qa="offer-catalog-menu-item-name">hamed gym</div>
+                            </div>
+                            <div class="_9t1fKU _3Hyp97 _2ojNy7" data-qa="service-duration">1h</div>
+                        </div>
+                        <div style="display: flex; flex-direction: row-reverse; flex-shrink: 0; flex-grow: 0; text-align: right;">
+                            <div class="_9t1fKU _3Hyp97 lxxmG_" data-qa="service-retail-price"><span>₹100</span></div>
+                            <div class="_9t1fKU _3Hyp97 _1W3ZgR" data-qa="non-discounted-price"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="clearfix"></div>
         </div>
     </div>
 
@@ -50,6 +110,8 @@
             $('#servicepopup').hide();
             //Calling add client method
             $(document).on('click', '#btnAddNew', function () { $('#servicepopup').show() });
+            $(document).on('click', '.btnShowDetails', function () { alert('hi'); });
+            $(document).on('click', '.btnHideDetails', function () { $('._1icYDw').hide() });
             $(document).on('scroll', function () { $('#servicepopup').hide(); });
             //$(document).on('click', 'body', function () {
             //    if ($("#servicepopup").is(":visible")) {

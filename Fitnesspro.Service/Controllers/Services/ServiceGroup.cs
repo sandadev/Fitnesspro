@@ -10,6 +10,7 @@ namespace Fitnesspro.Service.Controllers.Services
     public class ServiceGroup : ApiController
     {
         // GET api/<controller>
+
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };

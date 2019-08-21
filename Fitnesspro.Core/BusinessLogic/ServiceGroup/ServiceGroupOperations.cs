@@ -12,7 +12,7 @@ using Fitnesspro.Repository.Interface;
 
 namespace Fitnesspro.Core.ServiceGBusinessLogivroup
 {
-   public class ServiceGroupOperations :IServiceGroup
+    public class ServiceGroupOperations : IServiceGroup
     {
         private IServiceGroupRepository _servicegrouprepo;
         public ServiceGroupOperations(IServiceGroupRepository servicegroup)
@@ -20,23 +20,16 @@ namespace Fitnesspro.Core.ServiceGBusinessLogivroup
             _servicegrouprepo = servicegroup;
         }
 
-        //public ValidationResponse CreateServiceGroup(ServiceGroupViewModel servicegroup)
-        //{
-        //    throw new NotImplementedException();
-        //}
-
-        /// <summary>
-        /// Return all the Service group
-        /// </summary>
-        /// <returns> all Service group</returns>
-        /// 
-
-      public List<ServiceGroupViewModel> ServiceGroupList()
+        public ValidationResponse CreateServiceGroup(ServiceGroupViewModel servicegroup)
         {
-            //return _servicegrouprepo.ServiceGroupList();
             throw new NotImplementedException();
         }
 
-      
+        public List<ServiceGroupViewModel> ServiceGroupList()
+        {
+            return _servicegrouprepo.ServiceGroupList();
+        }
+
+     
     }
 }

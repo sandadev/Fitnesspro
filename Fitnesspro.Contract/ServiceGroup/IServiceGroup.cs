@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Fitnesspro.DataAccess.Services;
+using Fitnesspro;
 using Fitnesspro.DataAccess.Response;
 
 
